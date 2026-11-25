@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Софья Димитрова — Визажист | Шахты</title>
+    <meta name="description" content="Профессиональный визажист в Шахтах. Свадебный макияж, вечерний, выпускной. Выезд на дом.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;700&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container header__inner">
+            <a href="#home" class="logo">Софья <span>Димитрова</span></a>
+            <nav class="nav">
+                <a href="#home" class="nav__link">Главная</a>
+                <a href="#portfolio" class="nav__link">Портфолио</a>
+                <a href="#services" class="nav__link">Услуги</a>
+                <a href="#travel" class="nav__link">Выезд</a>
+                <a href="#booking" class="nav__link">Запись</a>
+            </nav>
+            <button class="burger" aria-label="Меню"><span></span><span></span><span></span></button>
+        </div>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="container hero__inner">
+            <div class="hero__image">
+                <img src="sofy.jpg.webp" alt="Софья Димитрова — визажист">
+            </div>
+            <div class="hero__content">
+                <p class="hero__subtitle">Визажист · Шахты</p>
+                <h1 class="hero__title">Софья<br>Димитрова</h1>
+                <p class="hero__text">Подчеркну твою естественную красоту. Свадебный, вечерний, дневной макияж — каждый образ создаётся индивидуально под тебя.</p>
+                <div class="hero__links">
+                    <a href="https://www.instagram.com/sofa.dimitr?igsi=cGhvcnhwYjd0ODh6&utm_source=qr" target="_blank" class="btn btn--primary"><i class="fab fa-instagram"></i> Instagram</a>
+                    <a href="#booking" class="btn btn--ghost">Записаться</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio" class="portfolio section">
+        <div class="container">
+            <h2 class="section__title">Мои работы</h2>
+            <p class="section__subtitle">Каждый образ — это история</p>
+            <div class="portfolio__grid">
+                <div class="portfolio__item"><img src="work1.jpg.webp" alt="Макияж 1"><div class="portfolio__overlay"><span>Свадебный образ</span></div></div>
+                <div class="portfolio__item"><img src="work2.jpg.webp" alt="Макияж 2"><div class="portfolio__overlay"><span>Вечерний макияж</span></div></div>
+                <div class="portfolio__item"><img src="work3.jpg.webp" alt="Макияж 3"><div class="portfolio__overlay"><span>Дневной образ</span></div></div>
+                <div class="portfolio__item"><img src="work4.jpg.webp" alt="Макияж 4"><div class="portfolio__overlay"><span>Выпускной</span></div></div>
+                <div class="portfolio__item"><img src="work5.jpg.webp" alt="Макияж 5"><div class="portfolio__overlay"><span>Фотосессия</span></div></div>
+                <div class="portfolio__item"><img src="work6.jpg.webp" alt="Макияж 6"><div class="portfolio__overlay"><span>Smokey eyes</span></div></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="services section">
+        <div class="container">
+            <h2 class="section__title">Услуги и цены</h2>
+            <p class="section__subtitle">Прозрачный прайс без скрытых доплат</p>
+            <div class="services__list">
+                <div class="service-card"><div class="service-card__head"><h3>Свадебный макияж</h3><span class="price">2 500 ₽</span></div><p>Стойкий макияж на весь день. Репетиция образа включена. Использую только премиальную косметику.</p></div>
+                <div class="service-card"><div class="service-card__head"><h3>Вечерний макияж</h3><span class="price">2 500 ₽</span></div><p>Яркий или нежный образ для мероприятия, фотосессии, корпоратива.</p></div>
+                <div class="service-card"><div class="service-card__head"><h3>Дневной макияж</h3><span class="price">1 500 ₽</span></div><p>Лёгкий естественный образ на каждый день или свидание.</p></div>
+                <div class="service-card"><div class="service-card__head"><h3>Выпускной макияж</h3><span class="price">1 500 ₽</span></div><p>Идеальный образ для самого важного вечера.</p></div>
+                <div class="service-card"><div class="service-card__head"><h3>Макияж для фотосессии</h3><span class="price">2 500 ₽</span></div><p>Макияж с учётом света и задач фотографа.</p></div>
+                <div class="service-card"><div class="service-card__head"><h3>Индивидуальный урок</h3><span class="price">5 000 ₽</span></div><p>Научу делать макияж самостоятельно. 2 часа практики.</p></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="travel" class="travel section">
+        <div class="container travel__inner">
+            <div class="travel__content">
+                <h2 class="section__title">Выезд к клиенту</h2>
+                <p class="travel__text">Работаю как у себя в студии, так и с выездом — к тебе домой, в отель или прямо в салон красоты. Привожу с собой всё необходимое: профессиональную косметику, кисти, зеркала и освещение.</p>
+                <ul class="travel__list">
+                    <li><i class="fas fa-map-marker-alt"></i> г. Шахты — 1000 ₽</li>
+                    <li><i class="fas fa-city"></i> Дальние поездки — по договорённости</li>
+                    <li><i class="fas fa-clock"></i> Ранний выезд с 7:00 — +1000 ₽</li>
+                </ul>
+            </div>
+            <div class="travel__image"><img src="sofy.jpg.webp" alt="Выезд визажиста"></div>
+        </div>
+    </section>
+
+    <section id="booking" class="booking section">
+        <div class="container">
+            <h2 class="section__title">Записаться</h2>
+            <p class="section__subtitle">Оставь заявку — я свяжусь с тобой в течение часа</p>
+            <form class="booking__form" id="bookingForm">
+                <div class="form__group"><input type="text" name="name" placeholder="Твоё имя" required></div>
+                <div class="form__group"><input type="tel" name="phone" placeholder="Телефон" required></div>
+                <div class="form__group"><select name="service" required><option value="" disabled selected>Выбери услугу</option><option>Свадебный макияж</option><option>Вечерний макияж</option><option>Дневной макияж</option><option>Выпускной макияж</option><option>Макияж для фотосессии</option><option>Индивидуальный урок</option></select></div>
+                <div class="form__group"><input type="date" name="date" required></div>
+                <div class="form__group"><textarea name="message" placeholder="Комментарий (необязательно)" rows="4"></textarea></div>
+                <button type="submit" class="btn btn--primary btn--full">Отправить заявку</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container footer__inner">
+            <div class="footer__brand"><h3>Софья Димитрова</h3><p>Визажист · г. Шахты</p></div>
+            <div class="footer__social">
+                <a href="https://www.instagram.com/sofa.dimitr?igsi=cGhvcnhwYjd0ODh6&utm_source=qr" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                <a href="https://vk.com/ТВОЯ_СТРАНИЦА" target="_blank" aria-label="ВКонтакте"><i class="fab fa-vk"></i></a>
+            </div>
+            <div class="footer__copy">
+                <p>Для связи: <a href="tel:+79281183132" style="color: inherit; text-decoration: underline;">+7 (928) 118-31-32</a>, София</p>
+                <p>© 2026 Все права защищены</p>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
